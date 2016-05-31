@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Log Map Store
+Bundle-SymbolicName: nuxeo-runtime-tracelog;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: org.nuxeo.runtime.tracelog.TracePlugin
+Bundle-Vendor: nuxeo
+Require-Bundle: org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
+Import-Package: org.mapdb
+Export-Package: org.nuxeo.runtime.tracelog,
+ org.nuxeo.runtime.tracelog.spi
